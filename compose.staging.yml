@@ -1,0 +1,30 @@
+services:
+  client:
+    build:
+      context: .
+      target: client
+      args:
+        NEXT_PUBLIC_API_BASE_URL: ${NEXT_PUBLIC_API_BASE_URL:?Set the public API origin}
+        NEXT_PUBLIC_SITE_URL: ${NEXT_PUBLIC_SITE_URL:?Set the frontend origin}
+    env_file: client/.env.staging
+    ports: ["127.0.0.1:3000:3000"]
+    init: true
+    restart: unless-stopped
+  server:
+    build: { context: ., target: server }
+    env_file: server/.env.staging
+    environment: { SERVER_HOST: 0.0.0.0, SERVER_PORT: 4000 }
+    ports: ["127.0.0.1:4000:4000"]
+    init: true
+    restart: unless-stopped
+  media-worker:
+    build: { context: ., target: worker }
+    env_file: server/.env.staging
+    init: true
+    restart: unless-stopped
+  learning-worker:
+    build: { context: ., target: worker }
+    command: ["node", "scripts/job.mjs", "learning-worker"]
+    env_file: server/.env.staging
+    init: true
+    restart: unless-stopped

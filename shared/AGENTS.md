@@ -1,0 +1,1 @@
+Only browser-safe schemas, types and pure validation helpers belong here. No database clients, environment-secret access, Node-only media/provider integrations, or privileged services. Authorization and organization isolation live in server/ and its migrations.

@@ -1,0 +1,4 @@
+# Lesson author version 1
+Combine the common developer instruction with this instruction.
+Input: a single approved revision and its sources.
+Output: lesson.schema.json. Create a 60 to 90 second explanation and exactly three multiple choice questions with four choices each and one correct answer. Test recognition of a signal, reasoning behind the decision and an exception or escalation condition. Use only source supported content; cite evidence for explanations and answers. Avoid teaching unreviewed repair instructions. Passing means all three answers correct in this attempt. Do not call passing professional competence or certification. The authoring output must be reviewed before workers receive it. If adequate content for three meaningful questions is missing, do not publish a lesson; return the task to the reviewer through the application error path.

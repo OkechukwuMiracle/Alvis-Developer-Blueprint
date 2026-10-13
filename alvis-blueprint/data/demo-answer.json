@@ -1,0 +1,22 @@
+{
+  "mode": "answer",
+  "summary": "The reviewed tray change case may be relevant to this stopped training prop. Confirm the same timing and location with the trainer before using its guide.",
+  "claims": [
+    {
+      "text": "The symptom began with a tray change; location and timing favor guide contact.",
+      "revision_id": "22c5d825-3b26-5ceb-836c-454ecb239330",
+      "evidence_ids": [
+        "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+      ]
+    },
+    {
+      "text": "If there was no tray change or the sound location is unknown, do not assume this cause.",
+      "revision_id": "22c5d825-3b26-5ceb-836c-454ecb239330",
+      "evidence_ids": [
+        "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+      ]
+    }
+  ],
+  "clarifying_question": null,
+  "escalation_reason": null
+}

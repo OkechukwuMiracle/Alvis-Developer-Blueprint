@@ -1,0 +1,15 @@
+**/node_modules
+**/.next*
+**/.env*
+!**/.env.example
+**/.git
+**/test-results
+**/playwright-report
+**/evaluation-results
+**/*.tsbuildinfo
+**/supabase/.temp
+**/supabase/.branches
+**/*accounts*.json
+**/*.mp4
+**/*.webm
+**/.tools

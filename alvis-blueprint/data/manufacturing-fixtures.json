@@ -1,0 +1,1631 @@
+{
+  "notice": "Entirely fictional training fixtures. No real maintenance procedure or customer results. Demo approvals are simulated. No video binaries are included.",
+  "organization": {
+    "id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+    "name": "Alvis Training Works",
+    "demo_only": true
+  },
+  "site": {
+    "id": "c5d949dc-1347-5da1-91ef-c6dec94d53a7",
+    "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+    "name": "Learning Lab"
+  },
+  "people": [
+    {
+      "id": "9bfa03c4-5350-5ac1-9801-c8a71727e53d",
+      "name": "Ade Okafor",
+      "role": "expert"
+    },
+    {
+      "id": "6e0e0bf7-ae55-514d-af6d-40b9cbe7e79c",
+      "name": "Chioma Bello",
+      "role": "worker"
+    },
+    {
+      "id": "8a8283d9-abb8-54f7-a0f5-22752db85b56",
+      "name": "Amara Eze",
+      "role": "reviewer"
+    },
+    {
+      "id": "d1505c3e-3265-5d0d-9a83-ba762c0049f9",
+      "name": "Demo Administrator",
+      "role": "admin"
+    }
+  ],
+  "assets": [
+    {
+      "id": "308a98af-8135-573c-8e72-d1317136d0a7",
+      "code": "CV-07",
+      "name": "Tabletop conveyor simulator",
+      "simulation_only": true
+    },
+    {
+      "id": "e932edf6-7924-54b9-a80f-78b7426894be",
+      "code": "PK-02",
+      "name": "Packaging sensor simulator",
+      "simulation_only": true
+    },
+    {
+      "id": "6bc26e44-f96e-5043-92ea-d2296ec98fa0",
+      "code": "FN-01",
+      "name": "Deenergized fan training prop",
+      "simulation_only": true
+    }
+  ],
+  "sources": [
+    {
+      "id": "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "kind": "expert_note",
+      "locator": "paragraph 1",
+      "text": "In this fictional training case: Clicking began immediately after swapping the lightweight training tray. I noticed rhythmic click near the tray guide. My working interpretation was: The guide may be contacting the new tray. My decision was: Inspect the tray guide before assuming motor failure. Why: The symptom began with a tray change; location and timing favor guide contact. Exception: If there was no tray change or the sound location is unknown, do not assume this cause. Outcome: The clicking stopped in the simulated replay after the guide was reset. Training simulation only; prop stopped and deenergized; trainer present. If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person. Confirm the asset and symptom in the training scenario. Establish whether this reviewed case matches. Record the trainer confirmed simulation outcome. Separate observed results from assumptions.",
+      "synthetic": true,
+      "author_id": "9bfa03c4-5350-5ac1-9801-c8a71727e53d"
+    },
+    {
+      "id": "5f75200d-b259-5f93-943d-1f41e4c215e5",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "kind": "expert_note",
+      "locator": "paragraph 1",
+      "text": "In this fictional training case: The belt drifts left after a practice setup. I noticed left drift on the marked training belt. My working interpretation was: A setup difference may be present. My decision was: Compare the setup to the approved training reference. Why: The reference exposes setup changes without guessing a component fault. Exception: If reference configuration is unavailable, stop and ask the trainer. Outcome: Trainer demonstrated a corrected setup in simulation. Training simulation only; prop stopped and deenergized; trainer present. If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person. Confirm the asset and symptom in the training scenario. Establish whether this reviewed case matches. Record the trainer confirmed simulation outcome. Separate observed results from assumptions.",
+      "synthetic": true,
+      "author_id": "9bfa03c4-5350-5ac1-9801-c8a71727e53d"
+    },
+    {
+      "id": "99c30d87-d0ce-54e7-9bde-ff049a33c129",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "kind": "expert_note",
+      "locator": "paragraph 1",
+      "text": "In this fictional training case: Lightweight training trays stop at the same guide. I noticed jams recur at one marked point. My working interpretation was: A guide obstruction may be present. My decision was: Review the marked guide area on the stopped prop. Why: Repeated location is more informative than the generic symptom of a stopped belt. Exception: If stops occur at different points, this case does not establish the cause. Outcome: A paper obstruction was found on the training prop. Training simulation only; prop stopped and deenergized; trainer present. If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person. Confirm the asset and symptom in the training scenario. Establish whether this reviewed case matches. Record the trainer confirmed simulation outcome. Separate observed results from assumptions.",
+      "synthetic": true,
+      "author_id": "9bfa03c4-5350-5ac1-9801-c8a71727e53d"
+    },
+    {
+      "id": "dba0f8be-46e1-5974-8afb-fc0234954ea5",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "kind": "expert_note",
+      "locator": "paragraph 1",
+      "text": "In this fictional training case: A sensor simulation misses labels after changing the sample label. I noticed failures begin with a sample change. My working interpretation was: The new sample may differ from the reference sample. My decision was: Compare the label sample with the training reference. Why: Timing links the sample change to the symptom; it does not prove sensor failure. Exception: If failures preceded the change, use another reviewed case. Outcome: The trainer reproduced the behavior using the sample simulator. Training simulation only; prop stopped and deenergized; trainer present. If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person. Confirm the asset and symptom in the training scenario. Establish whether this reviewed case matches. Record the trainer confirmed simulation outcome. Separate observed results from assumptions.",
+      "synthetic": true,
+      "author_id": "9bfa03c4-5350-5ac1-9801-c8a71727e53d"
+    },
+    {
+      "id": "d92e5982-1795-5dd7-b428-d4f1f6516a06",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "kind": "expert_note",
+      "locator": "paragraph 1",
+      "text": "In this fictional training case: A desktop sensor demo shows alternating readings. I noticed two input samples alternate. My working interpretation was: Inputs may be inconsistent. My decision was: Identify which samples produced each reading. Why: Recording conditions prevents confusing input variation with a sensor defect. Exception: Do not infer this from a real industrial sensor without an approved procedure. Outcome: Input differences explained the demo readings. Training simulation only; prop stopped and deenergized; trainer present. If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person. Confirm the asset and symptom in the training scenario. Establish whether this reviewed case matches. Record the trainer confirmed simulation outcome. Separate observed results from assumptions.",
+      "synthetic": true,
+      "author_id": "9bfa03c4-5350-5ac1-9801-c8a71727e53d"
+    },
+    {
+      "id": "97d11d09-4701-51a5-95cc-9444c5a83cc7",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "kind": "expert_note",
+      "locator": "paragraph 1",
+      "text": "In this fictional training case: Trainer describes a rattle on a deenergized fan prop. I noticed a loose label is visible beside the guard. My working interpretation was: The loose label is one possible source. My decision was: Ask the trainer to check the label on the stopped prop. Why: Visible context narrows the question; it does not diagnose a powered fan. Exception: Smoke, heat or electrical concerns require escalation, not this lesson. Outcome: Trainer identified a loose paper label in the simulation. Training simulation only; prop stopped and deenergized; trainer present. If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person. Confirm the asset and symptom in the training scenario. Establish whether this reviewed case matches. Record the trainer confirmed simulation outcome. Separate observed results from assumptions.",
+      "synthetic": true,
+      "author_id": "9bfa03c4-5350-5ac1-9801-c8a71727e53d"
+    },
+    {
+      "id": "8c063e35-2512-54ef-8f58-288d109b7704",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "kind": "expert_note",
+      "locator": "paragraph 1",
+      "text": "In this fictional training case: A learner reports a noise with no timing or location. I noticed an unspecified noise. My working interpretation was: The cause is not established. My decision was: Ask for asset, timing and recent changes. Why: Different faults share generic descriptions. Exception: Do not recommend a repair from this description. Outcome: Not observed. Training simulation only; prop stopped and deenergized; trainer present. If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person. Confirm the asset and symptom in the training scenario. Establish whether this reviewed case matches. Record the trainer confirmed simulation outcome. Separate observed results from assumptions.",
+      "synthetic": true,
+      "author_id": "9bfa03c4-5350-5ac1-9801-c8a71727e53d"
+    },
+    {
+      "id": "5cb3015b-b0ca-5230-a0e7-3c647435d837",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "kind": "expert_note",
+      "locator": "paragraph 1",
+      "text": "In this fictional training case: The simulated dashboard resets during a lesson. I noticed screen reset is reported. My working interpretation was: The source has not established why. My decision was: Preserve the observation and ask the trainer. Why: The recording omits context needed to explain the reset. Exception: No troubleshooting procedure has been reviewed. Outcome: Not observed. Training simulation only; prop stopped and deenergized; trainer present. If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person. Confirm the asset and symptom in the training scenario. Establish whether this reviewed case matches. Record the trainer confirmed simulation outcome. Separate observed results from assumptions.",
+      "synthetic": true,
+      "author_id": "9bfa03c4-5350-5ac1-9801-c8a71727e53d"
+    },
+    {
+      "id": "7925acf2-ea28-5ec9-b343-c64462851a3b",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "kind": "expert_note",
+      "locator": "paragraph 1",
+      "text": "In this fictional training case: An unreviewed narrator recommends replacing the motor for any click. I noticed any clicking noise. My working interpretation was: Narrator assumes motor failure. My decision was: Replace the motor. Why: Narrator supplies no supporting reasoning. Exception: No exceptions supplied. Outcome: Not observed. Training simulation only; prop stopped and deenergized; trainer present. If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person. Confirm the asset and symptom in the training scenario. Establish whether this reviewed case matches. Record the trainer confirmed simulation outcome. Separate observed results from assumptions.",
+      "synthetic": true,
+      "author_id": "9bfa03c4-5350-5ac1-9801-c8a71727e53d"
+    },
+    {
+      "id": "c83b9a2d-c776-5344-8071-99c0b02c7acd",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "kind": "expert_note",
+      "locator": "paragraph 1",
+      "text": "In this fictional training case: An unreviewed narrator suggests bypassing the guard. I noticed a fan does not start. My working interpretation was: Narrator assumes a guard issue. My decision was: Bypass the guard. Why: No acceptable justification. Exception: Rejected as unsafe and unsupported. Outcome: Not observed. Training simulation only; prop stopped and deenergized; trainer present. If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person. Confirm the asset and symptom in the training scenario. Establish whether this reviewed case matches. Record the trainer confirmed simulation outcome. Separate observed results from assumptions.",
+      "synthetic": true,
+      "author_id": "9bfa03c4-5350-5ac1-9801-c8a71727e53d"
+    },
+    {
+      "id": "b491a766-92ad-5112-b038-ccef2e189980",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "kind": "expert_note",
+      "locator": "paragraph 1",
+      "text": "In this fictional training case: An older training reference describes a previous guide layout. I noticed clicking with the old guide layout. My working interpretation was: Old guide contact was possible. My decision was: Use the old guide drawing. Why: Older prop used different markings. Exception: Retired; replaced by KU-001 for the current prop. Outcome: Historical simulation only. Training simulation only; prop stopped and deenergized; trainer present. If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person. Confirm the asset and symptom in the training scenario. Establish whether this reviewed case matches. Record the trainer confirmed simulation outcome. Separate observed results from assumptions.",
+      "synthetic": true,
+      "author_id": "9bfa03c4-5350-5ac1-9801-c8a71727e53d"
+    },
+    {
+      "id": "ec7439a3-80b0-56d2-b752-3e7680892113",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "kind": "expert_note",
+      "locator": "paragraph 1",
+      "text": "In this fictional training case: Two draft accounts disagree about a click after tray change. I noticed the same reported clicking. My working interpretation was: One account blames guide contact; another blames a motor. My decision was: Request reviewer reconciliation. Why: The conflicting accounts have not been resolved. Exception: Do not synthesize a repair from conflicting drafts. Outcome: Not observed. Training simulation only; prop stopped and deenergized; trainer present. If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person. Confirm the asset and symptom in the training scenario. Establish whether this reviewed case matches. Record the trainer confirmed simulation outcome. Separate observed results from assumptions.",
+      "synthetic": true,
+      "author_id": "9bfa03c4-5350-5ac1-9801-c8a71727e53d"
+    }
+  ],
+  "knowledge_units": [
+    {
+      "id": "408a2b6e-5072-5c4c-8839-ff330e2dca10",
+      "code": "KU-001",
+      "revision_id": "22c5d825-3b26-5ceb-836c-454ecb239330",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "asset_id": "308a98af-8135-573c-8e72-d1317136d0a7",
+      "version": 1,
+      "status": "approved",
+      "index_ready": true,
+      "reviewed_by": "8a8283d9-abb8-54f7-a0f5-22752db85b56",
+      "reviewed_at": "2026-10-01T10:00:00Z",
+      "synthetic": true,
+      "content": {
+        "title": "Clicking after a tray change",
+        "asset_code": "CV-07",
+        "task": "Recognize and explain the simulated symptom",
+        "situation": {
+          "text": "Clicking began immediately after swapping the lightweight training tray.",
+          "evidence_ids": [
+            "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+          ],
+          "basis": "explicit"
+        },
+        "signal": {
+          "text": "Rhythmic click near the tray guide.",
+          "evidence_ids": [
+            "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+          ],
+          "basis": "explicit"
+        },
+        "interpretation": {
+          "text": "The guide may be contacting the new tray.",
+          "evidence_ids": [
+            "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+          ],
+          "basis": "explicit"
+        },
+        "decision": {
+          "text": "Inspect the tray guide before assuming motor failure.",
+          "evidence_ids": [
+            "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+          ],
+          "basis": "explicit"
+        },
+        "reason": {
+          "text": "The symptom began with a tray change; location and timing favor guide contact.",
+          "evidence_ids": [
+            "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+          ],
+          "basis": "explicit"
+        },
+        "exceptions": [
+          {
+            "text": "If there was no tray change or the sound location is unknown, do not assume this cause.",
+            "evidence_ids": [
+              "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "outcome": {
+          "text": "The clicking stopped in the simulated replay after the guide was reset.",
+          "evidence_ids": [
+            "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+          ],
+          "basis": "explicit"
+        },
+        "prerequisites": [
+          {
+            "text": "Training simulation only; prop stopped and deenergized; trainer present.",
+            "evidence_ids": [
+              "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "stop_conditions": [
+          {
+            "text": "If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person.",
+            "evidence_ids": [
+              "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "instruction": "Confirm the asset and symptom in the training scenario.",
+            "rationale": "Establish whether this reviewed case matches.",
+            "evidence_ids": [
+              "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+            ],
+            "requires_authorized_person": false
+          },
+          {
+            "order": 2,
+            "instruction": "Inspect the tray guide before assuming motor failure.",
+            "rationale": "The symptom began with a tray change; location and timing favor guide contact.",
+            "evidence_ids": [
+              "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+            ],
+            "requires_authorized_person": true
+          },
+          {
+            "order": 3,
+            "instruction": "Record the trainer confirmed simulation outcome.",
+            "rationale": "Separate observed results from assumptions.",
+            "evidence_ids": [
+              "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+            ],
+            "requires_authorized_person": false
+          }
+        ],
+        "skill_tags": [
+          "Tray guide recognition"
+        ],
+        "missing_information": [],
+        "contradictions": []
+      }
+    },
+    {
+      "id": "59dab23b-ca36-5496-abbc-6b904887f596",
+      "code": "KU-002",
+      "revision_id": "bd92c91b-d399-5d4b-b2fa-d0222275309b",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "asset_id": "308a98af-8135-573c-8e72-d1317136d0a7",
+      "version": 1,
+      "status": "approved",
+      "index_ready": true,
+      "reviewed_by": "8a8283d9-abb8-54f7-a0f5-22752db85b56",
+      "reviewed_at": "2026-10-01T10:00:00Z",
+      "synthetic": true,
+      "content": {
+        "title": "Training belt drifts left",
+        "asset_code": "CV-07",
+        "task": "Recognize and explain the simulated symptom",
+        "situation": {
+          "text": "The belt drifts left after a practice setup.",
+          "evidence_ids": [
+            "5f75200d-b259-5f93-943d-1f41e4c215e5"
+          ],
+          "basis": "explicit"
+        },
+        "signal": {
+          "text": "Left drift on the marked training belt.",
+          "evidence_ids": [
+            "5f75200d-b259-5f93-943d-1f41e4c215e5"
+          ],
+          "basis": "explicit"
+        },
+        "interpretation": {
+          "text": "A setup difference may be present.",
+          "evidence_ids": [
+            "5f75200d-b259-5f93-943d-1f41e4c215e5"
+          ],
+          "basis": "explicit"
+        },
+        "decision": {
+          "text": "Compare the setup to the approved training reference.",
+          "evidence_ids": [
+            "5f75200d-b259-5f93-943d-1f41e4c215e5"
+          ],
+          "basis": "explicit"
+        },
+        "reason": {
+          "text": "The reference exposes setup changes without guessing a component fault.",
+          "evidence_ids": [
+            "5f75200d-b259-5f93-943d-1f41e4c215e5"
+          ],
+          "basis": "explicit"
+        },
+        "exceptions": [
+          {
+            "text": "If reference configuration is unavailable, stop and ask the trainer.",
+            "evidence_ids": [
+              "5f75200d-b259-5f93-943d-1f41e4c215e5"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "outcome": {
+          "text": "Trainer demonstrated a corrected setup in simulation.",
+          "evidence_ids": [
+            "5f75200d-b259-5f93-943d-1f41e4c215e5"
+          ],
+          "basis": "explicit"
+        },
+        "prerequisites": [
+          {
+            "text": "Training simulation only; prop stopped and deenergized; trainer present.",
+            "evidence_ids": [
+              "5f75200d-b259-5f93-943d-1f41e4c215e5"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "stop_conditions": [
+          {
+            "text": "If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person.",
+            "evidence_ids": [
+              "5f75200d-b259-5f93-943d-1f41e4c215e5"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "instruction": "Confirm the asset and symptom in the training scenario.",
+            "rationale": "Establish whether this reviewed case matches.",
+            "evidence_ids": [
+              "5f75200d-b259-5f93-943d-1f41e4c215e5"
+            ],
+            "requires_authorized_person": false
+          },
+          {
+            "order": 2,
+            "instruction": "Compare the setup to the approved training reference.",
+            "rationale": "The reference exposes setup changes without guessing a component fault.",
+            "evidence_ids": [
+              "5f75200d-b259-5f93-943d-1f41e4c215e5"
+            ],
+            "requires_authorized_person": true
+          },
+          {
+            "order": 3,
+            "instruction": "Record the trainer confirmed simulation outcome.",
+            "rationale": "Separate observed results from assumptions.",
+            "evidence_ids": [
+              "5f75200d-b259-5f93-943d-1f41e4c215e5"
+            ],
+            "requires_authorized_person": false
+          }
+        ],
+        "skill_tags": [
+          "Setup comparison"
+        ],
+        "missing_information": [],
+        "contradictions": []
+      }
+    },
+    {
+      "id": "2908d5c7-2888-55ca-b5eb-fcc9b47f6d63",
+      "code": "KU-003",
+      "revision_id": "2560fb8f-ab28-5c80-b5f4-5098b2c82148",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "asset_id": "308a98af-8135-573c-8e72-d1317136d0a7",
+      "version": 1,
+      "status": "approved",
+      "index_ready": true,
+      "reviewed_by": "8a8283d9-abb8-54f7-a0f5-22752db85b56",
+      "reviewed_at": "2026-10-01T10:00:00Z",
+      "synthetic": true,
+      "content": {
+        "title": "Repeated tray jams",
+        "asset_code": "CV-07",
+        "task": "Recognize and explain the simulated symptom",
+        "situation": {
+          "text": "Lightweight training trays stop at the same guide.",
+          "evidence_ids": [
+            "99c30d87-d0ce-54e7-9bde-ff049a33c129"
+          ],
+          "basis": "explicit"
+        },
+        "signal": {
+          "text": "Jams recur at one marked point.",
+          "evidence_ids": [
+            "99c30d87-d0ce-54e7-9bde-ff049a33c129"
+          ],
+          "basis": "explicit"
+        },
+        "interpretation": {
+          "text": "A guide obstruction may be present.",
+          "evidence_ids": [
+            "99c30d87-d0ce-54e7-9bde-ff049a33c129"
+          ],
+          "basis": "explicit"
+        },
+        "decision": {
+          "text": "Review the marked guide area on the stopped prop.",
+          "evidence_ids": [
+            "99c30d87-d0ce-54e7-9bde-ff049a33c129"
+          ],
+          "basis": "explicit"
+        },
+        "reason": {
+          "text": "Repeated location is more informative than the generic symptom of a stopped belt.",
+          "evidence_ids": [
+            "99c30d87-d0ce-54e7-9bde-ff049a33c129"
+          ],
+          "basis": "explicit"
+        },
+        "exceptions": [
+          {
+            "text": "If stops occur at different points, this case does not establish the cause.",
+            "evidence_ids": [
+              "99c30d87-d0ce-54e7-9bde-ff049a33c129"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "outcome": {
+          "text": "A paper obstruction was found on the training prop.",
+          "evidence_ids": [
+            "99c30d87-d0ce-54e7-9bde-ff049a33c129"
+          ],
+          "basis": "explicit"
+        },
+        "prerequisites": [
+          {
+            "text": "Training simulation only; prop stopped and deenergized; trainer present.",
+            "evidence_ids": [
+              "99c30d87-d0ce-54e7-9bde-ff049a33c129"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "stop_conditions": [
+          {
+            "text": "If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person.",
+            "evidence_ids": [
+              "99c30d87-d0ce-54e7-9bde-ff049a33c129"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "instruction": "Confirm the asset and symptom in the training scenario.",
+            "rationale": "Establish whether this reviewed case matches.",
+            "evidence_ids": [
+              "99c30d87-d0ce-54e7-9bde-ff049a33c129"
+            ],
+            "requires_authorized_person": false
+          },
+          {
+            "order": 2,
+            "instruction": "Review the marked guide area on the stopped prop.",
+            "rationale": "Repeated location is more informative than the generic symptom of a stopped belt.",
+            "evidence_ids": [
+              "99c30d87-d0ce-54e7-9bde-ff049a33c129"
+            ],
+            "requires_authorized_person": true
+          },
+          {
+            "order": 3,
+            "instruction": "Record the trainer confirmed simulation outcome.",
+            "rationale": "Separate observed results from assumptions.",
+            "evidence_ids": [
+              "99c30d87-d0ce-54e7-9bde-ff049a33c129"
+            ],
+            "requires_authorized_person": false
+          }
+        ],
+        "skill_tags": [
+          "Pattern recognition"
+        ],
+        "missing_information": [],
+        "contradictions": []
+      }
+    },
+    {
+      "id": "d98ec447-fa6a-5efd-af9a-339d3b2b4be2",
+      "code": "KU-004",
+      "revision_id": "40d75881-5485-53b0-99b5-82c1be141b0b",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "asset_id": "e932edf6-7924-54b9-a80f-78b7426894be",
+      "version": 1,
+      "status": "approved",
+      "index_ready": true,
+      "reviewed_by": "8a8283d9-abb8-54f7-a0f5-22752db85b56",
+      "reviewed_at": "2026-10-01T10:00:00Z",
+      "synthetic": true,
+      "content": {
+        "title": "Missed labels on the sensor simulator",
+        "asset_code": "PK-02",
+        "task": "Recognize and explain the simulated symptom",
+        "situation": {
+          "text": "A sensor simulation misses labels after changing the sample label.",
+          "evidence_ids": [
+            "dba0f8be-46e1-5974-8afb-fc0234954ea5"
+          ],
+          "basis": "explicit"
+        },
+        "signal": {
+          "text": "Failures begin with a sample change.",
+          "evidence_ids": [
+            "dba0f8be-46e1-5974-8afb-fc0234954ea5"
+          ],
+          "basis": "explicit"
+        },
+        "interpretation": {
+          "text": "The new sample may differ from the reference sample.",
+          "evidence_ids": [
+            "dba0f8be-46e1-5974-8afb-fc0234954ea5"
+          ],
+          "basis": "explicit"
+        },
+        "decision": {
+          "text": "Compare the label sample with the training reference.",
+          "evidence_ids": [
+            "dba0f8be-46e1-5974-8afb-fc0234954ea5"
+          ],
+          "basis": "explicit"
+        },
+        "reason": {
+          "text": "Timing links the sample change to the symptom; it does not prove sensor failure.",
+          "evidence_ids": [
+            "dba0f8be-46e1-5974-8afb-fc0234954ea5"
+          ],
+          "basis": "explicit"
+        },
+        "exceptions": [
+          {
+            "text": "If failures preceded the change, use another reviewed case.",
+            "evidence_ids": [
+              "dba0f8be-46e1-5974-8afb-fc0234954ea5"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "outcome": {
+          "text": "The trainer reproduced the behavior using the sample simulator.",
+          "evidence_ids": [
+            "dba0f8be-46e1-5974-8afb-fc0234954ea5"
+          ],
+          "basis": "explicit"
+        },
+        "prerequisites": [
+          {
+            "text": "Training simulation only; prop stopped and deenergized; trainer present.",
+            "evidence_ids": [
+              "dba0f8be-46e1-5974-8afb-fc0234954ea5"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "stop_conditions": [
+          {
+            "text": "If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person.",
+            "evidence_ids": [
+              "dba0f8be-46e1-5974-8afb-fc0234954ea5"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "instruction": "Confirm the asset and symptom in the training scenario.",
+            "rationale": "Establish whether this reviewed case matches.",
+            "evidence_ids": [
+              "dba0f8be-46e1-5974-8afb-fc0234954ea5"
+            ],
+            "requires_authorized_person": false
+          },
+          {
+            "order": 2,
+            "instruction": "Compare the label sample with the training reference.",
+            "rationale": "Timing links the sample change to the symptom; it does not prove sensor failure.",
+            "evidence_ids": [
+              "dba0f8be-46e1-5974-8afb-fc0234954ea5"
+            ],
+            "requires_authorized_person": true
+          },
+          {
+            "order": 3,
+            "instruction": "Record the trainer confirmed simulation outcome.",
+            "rationale": "Separate observed results from assumptions.",
+            "evidence_ids": [
+              "dba0f8be-46e1-5974-8afb-fc0234954ea5"
+            ],
+            "requires_authorized_person": false
+          }
+        ],
+        "skill_tags": [
+          "Change tracing"
+        ],
+        "missing_information": [],
+        "contradictions": []
+      }
+    },
+    {
+      "id": "199549ea-4ea6-5619-a1c9-1776577a78ea",
+      "code": "KU-005",
+      "revision_id": "0feaed8e-16c6-5cb5-90d8-94abdfd5d2dd",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "asset_id": "e932edf6-7924-54b9-a80f-78b7426894be",
+      "version": 1,
+      "status": "approved",
+      "index_ready": true,
+      "reviewed_by": "8a8283d9-abb8-54f7-a0f5-22752db85b56",
+      "reviewed_at": "2026-10-01T10:00:00Z",
+      "synthetic": true,
+      "content": {
+        "title": "Unstable simulated readings",
+        "asset_code": "PK-02",
+        "task": "Recognize and explain the simulated symptom",
+        "situation": {
+          "text": "A desktop sensor demo shows alternating readings.",
+          "evidence_ids": [
+            "d92e5982-1795-5dd7-b428-d4f1f6516a06"
+          ],
+          "basis": "explicit"
+        },
+        "signal": {
+          "text": "Two input samples alternate.",
+          "evidence_ids": [
+            "d92e5982-1795-5dd7-b428-d4f1f6516a06"
+          ],
+          "basis": "explicit"
+        },
+        "interpretation": {
+          "text": "Inputs may be inconsistent.",
+          "evidence_ids": [
+            "d92e5982-1795-5dd7-b428-d4f1f6516a06"
+          ],
+          "basis": "explicit"
+        },
+        "decision": {
+          "text": "Identify which samples produced each reading.",
+          "evidence_ids": [
+            "d92e5982-1795-5dd7-b428-d4f1f6516a06"
+          ],
+          "basis": "explicit"
+        },
+        "reason": {
+          "text": "Recording conditions prevents confusing input variation with a sensor defect.",
+          "evidence_ids": [
+            "d92e5982-1795-5dd7-b428-d4f1f6516a06"
+          ],
+          "basis": "explicit"
+        },
+        "exceptions": [
+          {
+            "text": "Do not infer this from a real industrial sensor without an approved procedure.",
+            "evidence_ids": [
+              "d92e5982-1795-5dd7-b428-d4f1f6516a06"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "outcome": {
+          "text": "Input differences explained the demo readings.",
+          "evidence_ids": [
+            "d92e5982-1795-5dd7-b428-d4f1f6516a06"
+          ],
+          "basis": "explicit"
+        },
+        "prerequisites": [
+          {
+            "text": "Training simulation only; prop stopped and deenergized; trainer present.",
+            "evidence_ids": [
+              "d92e5982-1795-5dd7-b428-d4f1f6516a06"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "stop_conditions": [
+          {
+            "text": "If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person.",
+            "evidence_ids": [
+              "d92e5982-1795-5dd7-b428-d4f1f6516a06"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "instruction": "Confirm the asset and symptom in the training scenario.",
+            "rationale": "Establish whether this reviewed case matches.",
+            "evidence_ids": [
+              "d92e5982-1795-5dd7-b428-d4f1f6516a06"
+            ],
+            "requires_authorized_person": false
+          },
+          {
+            "order": 2,
+            "instruction": "Identify which samples produced each reading.",
+            "rationale": "Recording conditions prevents confusing input variation with a sensor defect.",
+            "evidence_ids": [
+              "d92e5982-1795-5dd7-b428-d4f1f6516a06"
+            ],
+            "requires_authorized_person": true
+          },
+          {
+            "order": 3,
+            "instruction": "Record the trainer confirmed simulation outcome.",
+            "rationale": "Separate observed results from assumptions.",
+            "evidence_ids": [
+              "d92e5982-1795-5dd7-b428-d4f1f6516a06"
+            ],
+            "requires_authorized_person": false
+          }
+        ],
+        "skill_tags": [
+          "Observation logging"
+        ],
+        "missing_information": [],
+        "contradictions": []
+      }
+    },
+    {
+      "id": "14ad62ed-e958-52b1-b979-e6da999f1396",
+      "code": "KU-006",
+      "revision_id": "592ef5da-b0d9-56b9-b454-c62cd70d09a0",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "asset_id": "6bc26e44-f96e-5043-92ea-d2296ec98fa0",
+      "version": 1,
+      "status": "approved",
+      "index_ready": true,
+      "reviewed_by": "8a8283d9-abb8-54f7-a0f5-22752db85b56",
+      "reviewed_at": "2026-10-01T10:00:00Z",
+      "synthetic": true,
+      "content": {
+        "title": "Rattle on a stopped fan prop",
+        "asset_code": "FN-01",
+        "task": "Recognize and explain the simulated symptom",
+        "situation": {
+          "text": "Trainer describes a rattle on a deenergized fan prop.",
+          "evidence_ids": [
+            "97d11d09-4701-51a5-95cc-9444c5a83cc7"
+          ],
+          "basis": "explicit"
+        },
+        "signal": {
+          "text": "A loose label is visible beside the guard.",
+          "evidence_ids": [
+            "97d11d09-4701-51a5-95cc-9444c5a83cc7"
+          ],
+          "basis": "explicit"
+        },
+        "interpretation": {
+          "text": "The loose label is one possible source.",
+          "evidence_ids": [
+            "97d11d09-4701-51a5-95cc-9444c5a83cc7"
+          ],
+          "basis": "explicit"
+        },
+        "decision": {
+          "text": "Ask the trainer to check the label on the stopped prop.",
+          "evidence_ids": [
+            "97d11d09-4701-51a5-95cc-9444c5a83cc7"
+          ],
+          "basis": "explicit"
+        },
+        "reason": {
+          "text": "Visible context narrows the question; it does not diagnose a powered fan.",
+          "evidence_ids": [
+            "97d11d09-4701-51a5-95cc-9444c5a83cc7"
+          ],
+          "basis": "explicit"
+        },
+        "exceptions": [
+          {
+            "text": "Smoke, heat or electrical concerns require escalation, not this lesson.",
+            "evidence_ids": [
+              "97d11d09-4701-51a5-95cc-9444c5a83cc7"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "outcome": {
+          "text": "Trainer identified a loose paper label in the simulation.",
+          "evidence_ids": [
+            "97d11d09-4701-51a5-95cc-9444c5a83cc7"
+          ],
+          "basis": "explicit"
+        },
+        "prerequisites": [
+          {
+            "text": "Training simulation only; prop stopped and deenergized; trainer present.",
+            "evidence_ids": [
+              "97d11d09-4701-51a5-95cc-9444c5a83cc7"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "stop_conditions": [
+          {
+            "text": "If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person.",
+            "evidence_ids": [
+              "97d11d09-4701-51a5-95cc-9444c5a83cc7"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "instruction": "Confirm the asset and symptom in the training scenario.",
+            "rationale": "Establish whether this reviewed case matches.",
+            "evidence_ids": [
+              "97d11d09-4701-51a5-95cc-9444c5a83cc7"
+            ],
+            "requires_authorized_person": false
+          },
+          {
+            "order": 2,
+            "instruction": "Ask the trainer to check the label on the stopped prop.",
+            "rationale": "Visible context narrows the question; it does not diagnose a powered fan.",
+            "evidence_ids": [
+              "97d11d09-4701-51a5-95cc-9444c5a83cc7"
+            ],
+            "requires_authorized_person": true
+          },
+          {
+            "order": 3,
+            "instruction": "Record the trainer confirmed simulation outcome.",
+            "rationale": "Separate observed results from assumptions.",
+            "evidence_ids": [
+              "97d11d09-4701-51a5-95cc-9444c5a83cc7"
+            ],
+            "requires_authorized_person": false
+          }
+        ],
+        "skill_tags": [
+          "Evidence limits"
+        ],
+        "missing_information": [],
+        "contradictions": []
+      }
+    },
+    {
+      "id": "eec89f9b-df9c-53e5-a665-6d854faf9b82",
+      "code": "KU-007",
+      "revision_id": "a6da0a4b-7f8d-5888-9d76-f2dbe35cf9cf",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "asset_id": "308a98af-8135-573c-8e72-d1317136d0a7",
+      "version": 1,
+      "status": "approved",
+      "index_ready": true,
+      "reviewed_by": "8a8283d9-abb8-54f7-a0f5-22752db85b56",
+      "reviewed_at": "2026-10-01T10:00:00Z",
+      "synthetic": true,
+      "content": {
+        "title": "Ambiguous start noise",
+        "asset_code": "CV-07",
+        "task": "Recognize and explain the simulated symptom",
+        "situation": {
+          "text": "A learner reports a noise with no timing or location.",
+          "evidence_ids": [
+            "8c063e35-2512-54ef-8f58-288d109b7704"
+          ],
+          "basis": "explicit"
+        },
+        "signal": {
+          "text": "An unspecified noise.",
+          "evidence_ids": [
+            "8c063e35-2512-54ef-8f58-288d109b7704"
+          ],
+          "basis": "explicit"
+        },
+        "interpretation": {
+          "text": "The cause is not established.",
+          "evidence_ids": [
+            "8c063e35-2512-54ef-8f58-288d109b7704"
+          ],
+          "basis": "explicit"
+        },
+        "decision": {
+          "text": "Ask for asset, timing and recent changes.",
+          "evidence_ids": [
+            "8c063e35-2512-54ef-8f58-288d109b7704"
+          ],
+          "basis": "explicit"
+        },
+        "reason": {
+          "text": "Different faults share generic descriptions.",
+          "evidence_ids": [
+            "8c063e35-2512-54ef-8f58-288d109b7704"
+          ],
+          "basis": "explicit"
+        },
+        "exceptions": [
+          {
+            "text": "Do not recommend a repair from this description.",
+            "evidence_ids": [
+              "8c063e35-2512-54ef-8f58-288d109b7704"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "outcome": {
+          "text": "Not observed.",
+          "evidence_ids": [
+            "8c063e35-2512-54ef-8f58-288d109b7704"
+          ],
+          "basis": "explicit"
+        },
+        "prerequisites": [
+          {
+            "text": "Training simulation only; prop stopped and deenergized; trainer present.",
+            "evidence_ids": [
+              "8c063e35-2512-54ef-8f58-288d109b7704"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "stop_conditions": [
+          {
+            "text": "If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person.",
+            "evidence_ids": [
+              "8c063e35-2512-54ef-8f58-288d109b7704"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "instruction": "Confirm the asset and symptom in the training scenario.",
+            "rationale": "Establish whether this reviewed case matches.",
+            "evidence_ids": [
+              "8c063e35-2512-54ef-8f58-288d109b7704"
+            ],
+            "requires_authorized_person": false
+          },
+          {
+            "order": 2,
+            "instruction": "Ask for asset, timing and recent changes.",
+            "rationale": "Different faults share generic descriptions.",
+            "evidence_ids": [
+              "8c063e35-2512-54ef-8f58-288d109b7704"
+            ],
+            "requires_authorized_person": true
+          },
+          {
+            "order": 3,
+            "instruction": "Record the trainer confirmed simulation outcome.",
+            "rationale": "Separate observed results from assumptions.",
+            "evidence_ids": [
+              "8c063e35-2512-54ef-8f58-288d109b7704"
+            ],
+            "requires_authorized_person": false
+          }
+        ],
+        "skill_tags": [
+          "Asking useful questions"
+        ],
+        "missing_information": [],
+        "contradictions": []
+      }
+    },
+    {
+      "id": "e323ff63-93a9-58b4-a0ef-81b4009da134",
+      "code": "KU-008",
+      "revision_id": "3abff8fc-0f6a-5552-93f8-46c083f3e559",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "asset_id": "e932edf6-7924-54b9-a80f-78b7426894be",
+      "version": 1,
+      "status": "pending",
+      "index_ready": false,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "synthetic": true,
+      "content": {
+        "title": "Unexpected reset on the simulator",
+        "asset_code": "PK-02",
+        "task": "Recognize and explain the simulated symptom",
+        "situation": {
+          "text": "The simulated dashboard resets during a lesson.",
+          "evidence_ids": [
+            "5cb3015b-b0ca-5230-a0e7-3c647435d837"
+          ],
+          "basis": "explicit"
+        },
+        "signal": {
+          "text": "Screen reset is reported.",
+          "evidence_ids": [
+            "5cb3015b-b0ca-5230-a0e7-3c647435d837"
+          ],
+          "basis": "explicit"
+        },
+        "interpretation": {
+          "text": "The source has not established why.",
+          "evidence_ids": [
+            "5cb3015b-b0ca-5230-a0e7-3c647435d837"
+          ],
+          "basis": "explicit"
+        },
+        "decision": {
+          "text": "Preserve the observation and ask the trainer.",
+          "evidence_ids": [
+            "5cb3015b-b0ca-5230-a0e7-3c647435d837"
+          ],
+          "basis": "explicit"
+        },
+        "reason": {
+          "text": "The recording omits context needed to explain the reset.",
+          "evidence_ids": [
+            "5cb3015b-b0ca-5230-a0e7-3c647435d837"
+          ],
+          "basis": "explicit"
+        },
+        "exceptions": [
+          {
+            "text": "No troubleshooting procedure has been reviewed.",
+            "evidence_ids": [
+              "5cb3015b-b0ca-5230-a0e7-3c647435d837"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "outcome": {
+          "text": "Not observed.",
+          "evidence_ids": [
+            "5cb3015b-b0ca-5230-a0e7-3c647435d837"
+          ],
+          "basis": "explicit"
+        },
+        "prerequisites": [
+          {
+            "text": "Training simulation only; prop stopped and deenergized; trainer present.",
+            "evidence_ids": [
+              "5cb3015b-b0ca-5230-a0e7-3c647435d837"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "stop_conditions": [
+          {
+            "text": "If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person.",
+            "evidence_ids": [
+              "5cb3015b-b0ca-5230-a0e7-3c647435d837"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "instruction": "Confirm the asset and symptom in the training scenario.",
+            "rationale": "Establish whether this reviewed case matches.",
+            "evidence_ids": [
+              "5cb3015b-b0ca-5230-a0e7-3c647435d837"
+            ],
+            "requires_authorized_person": false
+          },
+          {
+            "order": 2,
+            "instruction": "Preserve the observation and ask the trainer.",
+            "rationale": "The recording omits context needed to explain the reset.",
+            "evidence_ids": [
+              "5cb3015b-b0ca-5230-a0e7-3c647435d837"
+            ],
+            "requires_authorized_person": true
+          },
+          {
+            "order": 3,
+            "instruction": "Record the trainer confirmed simulation outcome.",
+            "rationale": "Separate observed results from assumptions.",
+            "evidence_ids": [
+              "5cb3015b-b0ca-5230-a0e7-3c647435d837"
+            ],
+            "requires_authorized_person": false
+          }
+        ],
+        "skill_tags": [
+          "Recognizing missing evidence"
+        ],
+        "missing_information": [
+          "Reviewer must resolve missing or disputed detail."
+        ],
+        "contradictions": []
+      }
+    },
+    {
+      "id": "320e8c80-ba75-559a-a40c-40469de5d57d",
+      "code": "KU-009",
+      "revision_id": "6a7b0e3a-60fa-5a2f-a38a-fbddf0483843",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "asset_id": "308a98af-8135-573c-8e72-d1317136d0a7",
+      "version": 1,
+      "status": "draft",
+      "index_ready": false,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "synthetic": true,
+      "content": {
+        "title": "Unreviewed motor replacement suggestion",
+        "asset_code": "CV-07",
+        "task": "Recognize and explain the simulated symptom",
+        "situation": {
+          "text": "An unreviewed narrator recommends replacing the motor for any click.",
+          "evidence_ids": [
+            "7925acf2-ea28-5ec9-b343-c64462851a3b"
+          ],
+          "basis": "explicit"
+        },
+        "signal": {
+          "text": "Any clicking noise.",
+          "evidence_ids": [
+            "7925acf2-ea28-5ec9-b343-c64462851a3b"
+          ],
+          "basis": "explicit"
+        },
+        "interpretation": {
+          "text": "Narrator assumes motor failure.",
+          "evidence_ids": [
+            "7925acf2-ea28-5ec9-b343-c64462851a3b"
+          ],
+          "basis": "explicit"
+        },
+        "decision": {
+          "text": "Replace the motor.",
+          "evidence_ids": [
+            "7925acf2-ea28-5ec9-b343-c64462851a3b"
+          ],
+          "basis": "explicit"
+        },
+        "reason": {
+          "text": "Narrator supplies no supporting reasoning.",
+          "evidence_ids": [
+            "7925acf2-ea28-5ec9-b343-c64462851a3b"
+          ],
+          "basis": "explicit"
+        },
+        "exceptions": [
+          {
+            "text": "No exceptions supplied.",
+            "evidence_ids": [
+              "7925acf2-ea28-5ec9-b343-c64462851a3b"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "outcome": {
+          "text": "Not observed.",
+          "evidence_ids": [
+            "7925acf2-ea28-5ec9-b343-c64462851a3b"
+          ],
+          "basis": "explicit"
+        },
+        "prerequisites": [
+          {
+            "text": "Training simulation only; prop stopped and deenergized; trainer present.",
+            "evidence_ids": [
+              "7925acf2-ea28-5ec9-b343-c64462851a3b"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "stop_conditions": [
+          {
+            "text": "If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person.",
+            "evidence_ids": [
+              "7925acf2-ea28-5ec9-b343-c64462851a3b"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "instruction": "Confirm the asset and symptom in the training scenario.",
+            "rationale": "Establish whether this reviewed case matches.",
+            "evidence_ids": [
+              "7925acf2-ea28-5ec9-b343-c64462851a3b"
+            ],
+            "requires_authorized_person": false
+          },
+          {
+            "order": 2,
+            "instruction": "Replace the motor.",
+            "rationale": "Narrator supplies no supporting reasoning.",
+            "evidence_ids": [
+              "7925acf2-ea28-5ec9-b343-c64462851a3b"
+            ],
+            "requires_authorized_person": true
+          },
+          {
+            "order": 3,
+            "instruction": "Record the trainer confirmed simulation outcome.",
+            "rationale": "Separate observed results from assumptions.",
+            "evidence_ids": [
+              "7925acf2-ea28-5ec9-b343-c64462851a3b"
+            ],
+            "requires_authorized_person": false
+          }
+        ],
+        "skill_tags": [
+          "Review required"
+        ],
+        "missing_information": [
+          "Reviewer must resolve missing or disputed detail."
+        ],
+        "contradictions": []
+      }
+    },
+    {
+      "id": "3587f2ed-210b-5edd-800d-bccaafa78347",
+      "code": "KU-010",
+      "revision_id": "f4e43c43-9b30-5042-8122-12385f1b153b",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "asset_id": "6bc26e44-f96e-5043-92ea-d2296ec98fa0",
+      "version": 1,
+      "status": "rejected",
+      "index_ready": false,
+      "reviewed_by": "8a8283d9-abb8-54f7-a0f5-22752db85b56",
+      "reviewed_at": "2026-10-01T10:00:00Z",
+      "synthetic": true,
+      "content": {
+        "title": "Rejected guard bypass claim",
+        "asset_code": "FN-01",
+        "task": "Recognize and explain the simulated symptom",
+        "situation": {
+          "text": "An unreviewed narrator suggests bypassing the guard.",
+          "evidence_ids": [
+            "c83b9a2d-c776-5344-8071-99c0b02c7acd"
+          ],
+          "basis": "explicit"
+        },
+        "signal": {
+          "text": "A fan does not start.",
+          "evidence_ids": [
+            "c83b9a2d-c776-5344-8071-99c0b02c7acd"
+          ],
+          "basis": "explicit"
+        },
+        "interpretation": {
+          "text": "Narrator assumes a guard issue.",
+          "evidence_ids": [
+            "c83b9a2d-c776-5344-8071-99c0b02c7acd"
+          ],
+          "basis": "explicit"
+        },
+        "decision": {
+          "text": "Bypass the guard.",
+          "evidence_ids": [
+            "c83b9a2d-c776-5344-8071-99c0b02c7acd"
+          ],
+          "basis": "explicit"
+        },
+        "reason": {
+          "text": "No acceptable justification.",
+          "evidence_ids": [
+            "c83b9a2d-c776-5344-8071-99c0b02c7acd"
+          ],
+          "basis": "explicit"
+        },
+        "exceptions": [
+          {
+            "text": "Rejected as unsafe and unsupported.",
+            "evidence_ids": [
+              "c83b9a2d-c776-5344-8071-99c0b02c7acd"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "outcome": {
+          "text": "Not observed.",
+          "evidence_ids": [
+            "c83b9a2d-c776-5344-8071-99c0b02c7acd"
+          ],
+          "basis": "explicit"
+        },
+        "prerequisites": [
+          {
+            "text": "Training simulation only; prop stopped and deenergized; trainer present.",
+            "evidence_ids": [
+              "c83b9a2d-c776-5344-8071-99c0b02c7acd"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "stop_conditions": [
+          {
+            "text": "If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person.",
+            "evidence_ids": [
+              "c83b9a2d-c776-5344-8071-99c0b02c7acd"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "instruction": "Confirm the asset and symptom in the training scenario.",
+            "rationale": "Establish whether this reviewed case matches.",
+            "evidence_ids": [
+              "c83b9a2d-c776-5344-8071-99c0b02c7acd"
+            ],
+            "requires_authorized_person": false
+          },
+          {
+            "order": 2,
+            "instruction": "Bypass the guard.",
+            "rationale": "No acceptable justification.",
+            "evidence_ids": [
+              "c83b9a2d-c776-5344-8071-99c0b02c7acd"
+            ],
+            "requires_authorized_person": true
+          },
+          {
+            "order": 3,
+            "instruction": "Record the trainer confirmed simulation outcome.",
+            "rationale": "Separate observed results from assumptions.",
+            "evidence_ids": [
+              "c83b9a2d-c776-5344-8071-99c0b02c7acd"
+            ],
+            "requires_authorized_person": false
+          }
+        ],
+        "skill_tags": [
+          "Escalation"
+        ],
+        "missing_information": [
+          "Reviewer must resolve missing or disputed detail."
+        ],
+        "contradictions": []
+      }
+    },
+    {
+      "id": "4698e80a-5931-55fc-b7f7-0fd5ab726f15",
+      "code": "KU-011",
+      "revision_id": "0679fe1f-0aa5-5fe6-acc0-e0d694ec6cd2",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "asset_id": "308a98af-8135-573c-8e72-d1317136d0a7",
+      "version": 1,
+      "status": "retired",
+      "index_ready": false,
+      "reviewed_by": "8a8283d9-abb8-54f7-a0f5-22752db85b56",
+      "reviewed_at": "2026-10-01T10:00:00Z",
+      "synthetic": true,
+      "content": {
+        "title": "Older tray guide procedure",
+        "asset_code": "CV-07",
+        "task": "Recognize and explain the simulated symptom",
+        "situation": {
+          "text": "An older training reference describes a previous guide layout.",
+          "evidence_ids": [
+            "b491a766-92ad-5112-b038-ccef2e189980"
+          ],
+          "basis": "explicit"
+        },
+        "signal": {
+          "text": "Clicking with the old guide layout.",
+          "evidence_ids": [
+            "b491a766-92ad-5112-b038-ccef2e189980"
+          ],
+          "basis": "explicit"
+        },
+        "interpretation": {
+          "text": "Old guide contact was possible.",
+          "evidence_ids": [
+            "b491a766-92ad-5112-b038-ccef2e189980"
+          ],
+          "basis": "explicit"
+        },
+        "decision": {
+          "text": "Use the old guide drawing.",
+          "evidence_ids": [
+            "b491a766-92ad-5112-b038-ccef2e189980"
+          ],
+          "basis": "explicit"
+        },
+        "reason": {
+          "text": "Older prop used different markings.",
+          "evidence_ids": [
+            "b491a766-92ad-5112-b038-ccef2e189980"
+          ],
+          "basis": "explicit"
+        },
+        "exceptions": [
+          {
+            "text": "Retired; replaced by KU-001 for the current prop.",
+            "evidence_ids": [
+              "b491a766-92ad-5112-b038-ccef2e189980"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "outcome": {
+          "text": "Historical simulation only.",
+          "evidence_ids": [
+            "b491a766-92ad-5112-b038-ccef2e189980"
+          ],
+          "basis": "explicit"
+        },
+        "prerequisites": [
+          {
+            "text": "Training simulation only; prop stopped and deenergized; trainer present.",
+            "evidence_ids": [
+              "b491a766-92ad-5112-b038-ccef2e189980"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "stop_conditions": [
+          {
+            "text": "If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person.",
+            "evidence_ids": [
+              "b491a766-92ad-5112-b038-ccef2e189980"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "instruction": "Confirm the asset and symptom in the training scenario.",
+            "rationale": "Establish whether this reviewed case matches.",
+            "evidence_ids": [
+              "b491a766-92ad-5112-b038-ccef2e189980"
+            ],
+            "requires_authorized_person": false
+          },
+          {
+            "order": 2,
+            "instruction": "Use the old guide drawing.",
+            "rationale": "Older prop used different markings.",
+            "evidence_ids": [
+              "b491a766-92ad-5112-b038-ccef2e189980"
+            ],
+            "requires_authorized_person": true
+          },
+          {
+            "order": 3,
+            "instruction": "Record the trainer confirmed simulation outcome.",
+            "rationale": "Separate observed results from assumptions.",
+            "evidence_ids": [
+              "b491a766-92ad-5112-b038-ccef2e189980"
+            ],
+            "requires_authorized_person": false
+          }
+        ],
+        "skill_tags": [
+          "Revision awareness"
+        ],
+        "missing_information": [
+          "Reviewer must resolve missing or disputed detail."
+        ],
+        "contradictions": []
+      }
+    },
+    {
+      "id": "879d0be6-4e87-57ab-b0bb-de1bf3ac2475",
+      "code": "KU-012",
+      "revision_id": "878ede27-df80-528b-97c7-0586653e8815",
+      "organization_id": "8931f928-2f02-5d5b-b6dd-a300e6e524df",
+      "asset_id": "308a98af-8135-573c-8e72-d1317136d0a7",
+      "version": 1,
+      "status": "pending",
+      "index_ready": false,
+      "reviewed_by": null,
+      "reviewed_at": null,
+      "synthetic": true,
+      "content": {
+        "title": "Disputed clicking explanation",
+        "asset_code": "CV-07",
+        "task": "Recognize and explain the simulated symptom",
+        "situation": {
+          "text": "Two draft accounts disagree about a click after tray change.",
+          "evidence_ids": [
+            "ec7439a3-80b0-56d2-b752-3e7680892113"
+          ],
+          "basis": "explicit"
+        },
+        "signal": {
+          "text": "The same reported clicking.",
+          "evidence_ids": [
+            "ec7439a3-80b0-56d2-b752-3e7680892113"
+          ],
+          "basis": "explicit"
+        },
+        "interpretation": {
+          "text": "One account blames guide contact; another blames a motor.",
+          "evidence_ids": [
+            "ec7439a3-80b0-56d2-b752-3e7680892113"
+          ],
+          "basis": "explicit"
+        },
+        "decision": {
+          "text": "Request reviewer reconciliation.",
+          "evidence_ids": [
+            "ec7439a3-80b0-56d2-b752-3e7680892113"
+          ],
+          "basis": "explicit"
+        },
+        "reason": {
+          "text": "The conflicting accounts have not been resolved.",
+          "evidence_ids": [
+            "ec7439a3-80b0-56d2-b752-3e7680892113"
+          ],
+          "basis": "explicit"
+        },
+        "exceptions": [
+          {
+            "text": "Do not synthesize a repair from conflicting drafts.",
+            "evidence_ids": [
+              "ec7439a3-80b0-56d2-b752-3e7680892113"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "outcome": {
+          "text": "Not observed.",
+          "evidence_ids": [
+            "ec7439a3-80b0-56d2-b752-3e7680892113"
+          ],
+          "basis": "explicit"
+        },
+        "prerequisites": [
+          {
+            "text": "Training simulation only; prop stopped and deenergized; trainer present.",
+            "evidence_ids": [
+              "ec7439a3-80b0-56d2-b752-3e7680892113"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "stop_conditions": [
+          {
+            "text": "If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person.",
+            "evidence_ids": [
+              "ec7439a3-80b0-56d2-b752-3e7680892113"
+            ],
+            "basis": "explicit"
+          }
+        ],
+        "steps": [
+          {
+            "order": 1,
+            "instruction": "Confirm the asset and symptom in the training scenario.",
+            "rationale": "Establish whether this reviewed case matches.",
+            "evidence_ids": [
+              "ec7439a3-80b0-56d2-b752-3e7680892113"
+            ],
+            "requires_authorized_person": false
+          },
+          {
+            "order": 2,
+            "instruction": "Request reviewer reconciliation.",
+            "rationale": "The conflicting accounts have not been resolved.",
+            "evidence_ids": [
+              "ec7439a3-80b0-56d2-b752-3e7680892113"
+            ],
+            "requires_authorized_person": true
+          },
+          {
+            "order": 3,
+            "instruction": "Record the trainer confirmed simulation outcome.",
+            "rationale": "Separate observed results from assumptions.",
+            "evidence_ids": [
+              "ec7439a3-80b0-56d2-b752-3e7680892113"
+            ],
+            "requires_authorized_person": false
+          }
+        ],
+        "skill_tags": [
+          "Conflict resolution"
+        ],
+        "missing_information": [
+          "Reviewer must resolve missing or disputed detail."
+        ],
+        "contradictions": [
+          "Conflicting unreviewed explanations."
+        ]
+      }
+    }
+  ]
+}

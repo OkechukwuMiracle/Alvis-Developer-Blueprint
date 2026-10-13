@@ -1,0 +1,10 @@
+import { spawn } from "node:child_process";
+import { existsSync } from "node:fs";
+import { resolve } from "node:path";
+const file = resolve(process.env.ALVIS_ENV_FILE || ".env.local");
+if (existsSync(file)) process.loadEnvFile(file);
+const name = process.argv[2];
+if (!["worker", "learning-worker", "seed", "evaluate", "demo-reset", "release-preflight"].includes(name)) throw new Error("Unknown server job.");
+const child = spawn(process.execPath, ["--import", "tsx", `scripts/${name}.ts`, ...process.argv.slice(3)], { stdio: "inherit", env: process.env });
+for (const signal of ["SIGINT", "SIGTERM"]) process.on(signal, () => child.kill(signal));
+child.on("exit", code => process.exit(code || 0));

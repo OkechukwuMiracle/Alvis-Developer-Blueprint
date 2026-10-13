@@ -1,0 +1,61 @@
+{
+  "id": "b2b1cad5-6f3d-56af-a92e-4021c3b08239",
+  "status": "approved_demo_only",
+  "reviewed_by": "8a8283d9-abb8-54f7-a0f5-22752db85b56",
+  "synthetic": true,
+  "content": {
+    "title": "Recognizing a tray change clue",
+    "revision_id": "22c5d825-3b26-5ceb-836c-454ecb239330",
+    "explanation": "In this fictional stopped prop scenario, a rhythmic click started immediately after the tray changed and was located near the guide. Ade inspected the guide before assuming motor failure because the timing and location made guide contact a relevant hypothesis. This does not establish the cause of a generic machine noise. If the context differs or a hazard is reported, stop and ask the designated supervisor.",
+    "evidence_ids": [
+      "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+    ],
+    "questions": [
+      {
+        "id": "Q1",
+        "prompt": "Which observation makes this training case relevant?",
+        "options": [
+          "A click began near the guide immediately after changing the tray.",
+          "A machine makes an unspecified sound.",
+          "A dashboard shows a different color.",
+          "A tray has not changed for months."
+        ],
+        "correct_index": 0,
+        "explanation": "The source identifies both the recent tray change and click location.",
+        "evidence_ids": [
+          "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+        ]
+      },
+      {
+        "id": "Q2",
+        "prompt": "Why did Ade inspect the guide before assuming motor failure?",
+        "options": [
+          "Any click proves the motor is healthy.",
+          "Timing and location made guide contact a useful hypothesis.",
+          "Alvis diagnosed the motor from sound.",
+          "The procedure applies to all conveyors."
+        ],
+        "correct_index": 1,
+        "explanation": "The account uses context to prioritize a hypothesis, not prove a motor diagnosis.",
+        "evidence_ids": [
+          "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+        ]
+      },
+      {
+        "id": "Q3",
+        "prompt": "What should the learner do if the situation involves smoke from real equipment?",
+        "options": [
+          "Apply the same guide without asking.",
+          "Replace a motor immediately.",
+          "Stop and escalate to the authorized person.",
+          "Skip the prerequisite screen."
+        ],
+        "correct_index": 2,
+        "explanation": "The reviewed training case is not a repair procedure for active equipment hazards.",
+        "evidence_ids": [
+          "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+        ]
+      }
+    ]
+  }
+}

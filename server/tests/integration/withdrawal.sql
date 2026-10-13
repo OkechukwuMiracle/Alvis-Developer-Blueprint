@@ -1,0 +1,26 @@
+insert into captures(id,organization_id,asset_id,owner_id,title,consent_at,consent_version,state) values('d9000000-0000-4000-8000-000000000001','10000000-0000-4000-8000-000000000001','30000000-0000-4000-8000-000000000001','00000000-0000-4000-8000-000000000001','Withdraw test',now(),'test-only','debrief');
+update sources set capture_id='d9000000-0000-4000-8000-000000000001' where id='40000000-0000-4000-8000-000000000001';
+set local role authenticated;
+select set_config('request.jwt.claim.sub','00000000-0000-4000-8000-000000000001',true);
+select alvis_transition(id,'submit',null,content_hash,'','') from knowledge_revisions;
+select set_config('request.jwt.claim.sub','00000000-0000-4000-8000-000000000002',true);
+select alvis_transition(id,'approve',null,content_hash,'Reviewed withdrawal test','withdrawal-review') from knowledge_revisions;
+select pg_temp.flush_indexes();
+select set_config('request.jwt.claim.sub','00000000-0000-4000-8000-000000000003',true);
+select alvis_learning_command('10000000-0000-4000-8000-000000000001','guide_start','60000000-0000-4000-8000-000000000001','{"simulation_ack":true,"prerequisites_ack":true}')->>'id' as guide \gset
+select pg_temp.assert_true(pg_temp.denied($q$select alvis_withdraw_capture('10000000-0000-4000-8000-000000000001','d9000000-0000-4000-8000-000000000001','Withdraw test')$q$),'workers cannot withdraw');
+select set_config('request.jwt.claim.sub','00000000-0000-4000-8000-000000000004',true);
+select pg_temp.assert_true(pg_temp.denied($q$select alvis_withdraw_capture('10000000-0000-4000-8000-000000000001','d9000000-0000-4000-8000-000000000001','Withdraw test')$q$),'foreign expert cannot withdraw');
+select set_config('request.jwt.claim.sub','00000000-0000-4000-8000-000000000001',true);
+select pg_temp.assert_true(pg_temp.denied($q$select alvis_withdraw_capture('10000000-0000-4000-8000-000000000001','d9000000-0000-4000-8000-000000000001','Wrong title')$q$),'explicit confirmation required');
+select alvis_withdraw_capture('10000000-0000-4000-8000-000000000001','d9000000-0000-4000-8000-000000000001','Withdraw test');
+select alvis_withdraw_capture('10000000-0000-4000-8000-000000000001','d9000000-0000-4000-8000-000000000001','Withdraw test');
+select set_config('request.jwt.claim.sub','00000000-0000-4000-8000-000000000003',true);
+select pg_temp.assert_true((select count(*)=0 from sources),'withdrawn evidence unavailable to worker');
+select pg_temp.assert_true(alvis_learning_command('10000000-0000-4000-8000-000000000001','guide_get',:'guide','{}')->>'state'='invalidated','withdrawal invalidates guide');
+reset role;
+select pg_temp.assert_true((select status='retired' and not index_ready from knowledge_revisions),'dependent knowledge retired');
+select pg_temp.assert_true((select active_revision_id is null from knowledge_units),'active pointer removed');
+select pg_temp.assert_true((select count(*)=0 from knowledge_chunks),'withdrawal removes retrieval chunks');
+select pg_temp.assert_true((select count(*)=1 from audit_events where action='evidence_withdrawn'),'duplicate withdrawal produces one audit event');
+select 'PASS: withdrawal';rollback;

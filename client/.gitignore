@@ -1,0 +1,31 @@
+node_modules/
+.next*/
+.env*
+!.env.example
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+supabase/.temp/
+supabase/.branches/
+tests/integration/.update-*.sql
+
+# Evaluation reports can contain private organization excerpts
+evaluation-results/*.json
+coverage/
+out/
+*.log
+.DS_Store
+Thumbs.db
+
+# Generated declarations, caches, deployment metadata, and test artifacts
+next-env.d.ts
+.vercel/
+.cache/
+.turbo/
+.eslintcache
+blob-report/
+playwright/.cache/
+Desktop.ini
+.idea/
+.vscode/*.local.json

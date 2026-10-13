@@ -1,0 +1,12 @@
+{
+  "name": "@alvis/shared",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./*": "./src/*.ts"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1"
+  }
+}

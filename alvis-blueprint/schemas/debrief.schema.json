@@ -1,0 +1,51 @@
+{
+  "type": "object",
+  "properties": {
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "target_field": {
+            "type": "string",
+            "enum": [
+              "signal",
+              "reason",
+              "exceptions",
+              "prerequisites",
+              "stop_conditions",
+              "outcome"
+            ]
+          },
+          "question": {
+            "type": "string"
+          },
+          "gap": {
+            "type": "string"
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "id",
+          "target_field",
+          "question",
+          "gap",
+          "source_ids"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "questions"
+  ],
+  "additionalProperties": false
+}

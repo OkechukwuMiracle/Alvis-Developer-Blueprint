@@ -1,0 +1,5 @@
+# Extractor version 1
+Combine the common developer instruction with this instruction.
+Input: server selected asset_code, timestamped transcript segments, selected frames with their timestamps, and an evidence registry of stable IDs.
+Output: knowledge-unit.schema.json. Do not output database IDs or approval state.
+Extract situation, signal, expert interpretation, decision, stated reason, exceptions, prerequisites, stop conditions, outcome and explicitly described steps. Attach source IDs to each claim. Images can support visible objects and actions, not unseen intentions or machine health. Use basis explicit only when directly stated or visible, inferred for a tentative interpretation, unknown for absent information. Put uncertainty in missing_information. Record incompatible claims in contradictions rather than resolving them. Preserve steps in the order described. Do not fill in safety steps or technical settings from general model knowledge. If a prerequisite is missing, leave it unknown and flag review blocked. The expert debrief may supply additional evidence later.

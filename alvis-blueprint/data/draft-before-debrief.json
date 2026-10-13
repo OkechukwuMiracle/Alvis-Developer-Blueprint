@@ -1,0 +1,101 @@
+{
+  "title": "Clicking after a tray change",
+  "asset_code": "CV-07",
+  "task": "Recognize and explain the simulated symptom",
+  "situation": {
+    "text": "Clicking began immediately after swapping the lightweight training tray.",
+    "evidence_ids": [
+      "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+    ],
+    "basis": "explicit"
+  },
+  "signal": {
+    "text": "Rhythmic click near the tray guide.",
+    "evidence_ids": [
+      "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+    ],
+    "basis": "explicit"
+  },
+  "interpretation": {
+    "text": "The guide may be contacting the new tray.",
+    "evidence_ids": [
+      "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+    ],
+    "basis": "explicit"
+  },
+  "decision": {
+    "text": "Inspect the tray guide before assuming motor failure.",
+    "evidence_ids": [
+      "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+    ],
+    "basis": "explicit"
+  },
+  "reason": {
+    "text": null,
+    "evidence_ids": [],
+    "basis": "unknown"
+  },
+  "exceptions": [],
+  "outcome": {
+    "text": "The clicking stopped in the simulated replay after the guide was reset.",
+    "evidence_ids": [
+      "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+    ],
+    "basis": "explicit"
+  },
+  "prerequisites": [
+    {
+      "text": "Training simulation only; prop stopped and deenergized; trainer present.",
+      "evidence_ids": [
+        "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+      ],
+      "basis": "explicit"
+    }
+  ],
+  "stop_conditions": [
+    {
+      "text": "If context differs or an active equipment hazard is reported, stop and escalate to the site authorized person.",
+      "evidence_ids": [
+        "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+      ],
+      "basis": "explicit"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "instruction": "Confirm the asset and symptom in the training scenario.",
+      "rationale": "Establish whether this reviewed case matches.",
+      "evidence_ids": [
+        "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+      ],
+      "requires_authorized_person": false
+    },
+    {
+      "order": 2,
+      "instruction": "Inspect the tray guide before assuming motor failure.",
+      "rationale": "The symptom began with a tray change; location and timing favor guide contact.",
+      "evidence_ids": [
+        "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+      ],
+      "requires_authorized_person": true
+    },
+    {
+      "order": 3,
+      "instruction": "Record the trainer confirmed simulation outcome.",
+      "rationale": "Separate observed results from assumptions.",
+      "evidence_ids": [
+        "72ca1f3f-2d5a-52da-b135-d2d7c4468a7e"
+      ],
+      "requires_authorized_person": false
+    }
+  ],
+  "skill_tags": [
+    "Tray guide recognition"
+  ],
+  "missing_information": [
+    "What drove the decision to inspect the guide first?",
+    "When does this case not apply?"
+  ],
+  "contradictions": []
+}

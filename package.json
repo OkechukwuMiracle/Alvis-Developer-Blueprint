@@ -1,0 +1,26 @@
+{
+  "name": "alvis",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "client",
+    "server",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:client": "npm run dev --workspace @alvis/client --",
+    "dev:server": "npm run dev --workspace @alvis/server --",
+    "build": "npm run build --workspace @alvis/server && npm run build --workspace @alvis/client",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm test --workspace @alvis/server",
+    "test:integration": "npm run test:integration --workspace @alvis/server",
+    "test:e2e": "npm run test:e2e --workspace @alvis/client --",
+    "worker": "npm run worker --workspace @alvis/server --",
+    "worker:learning": "npm run worker:learning --workspace @alvis/server --",
+    "release:preflight": "npm run release:preflight --workspace @alvis/server",
+    "dev:all": "node scripts/dev.mjs --workers"
+  }
+}

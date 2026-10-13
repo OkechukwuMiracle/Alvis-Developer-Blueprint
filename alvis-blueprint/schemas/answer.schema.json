@@ -1,0 +1,63 @@
+{
+  "type": "object",
+  "properties": {
+    "mode": {
+      "type": "string",
+      "enum": [
+        "answer",
+        "clarify",
+        "abstain",
+        "escalate"
+      ]
+    },
+    "summary": {
+      "type": "string"
+    },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "text": {
+            "type": "string"
+          },
+          "revision_id": {
+            "type": "string"
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "text",
+          "revision_id",
+          "evidence_ids"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "clarifying_question": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "escalation_reason": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "mode",
+    "summary",
+    "claims",
+    "clarifying_question",
+    "escalation_reason"
+  ],
+  "additionalProperties": false
+}

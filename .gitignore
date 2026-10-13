@@ -1,0 +1,56 @@
+# Secrets: examples are the only tracked environment files.
+**/.env*
+!**/.env.example
+**/node_modules/
+client/.next*/
+server/.next*/
+client/out/
+server/dist/
+coverage/
+**/coverage/
+client/test-results/
+client/playwright-report/
+server/test-results/
+server/evaluation-results/*.json
+server/supabase/.temp/
+server/supabase/.branches/
+server/tests/integration/.update-*.sql
+server/var/uploads/
+server/var/media/
+server/var/tmp/
+server/.tools/
+**/*.tsbuildinfo
+**/*.log
+**/.DS_Store
+**/Thumbs.db
+**/Desktop.ini
+.idea/
+.vscode/*.local.json
+.refactor*.json
+.refactor*.mjs
+.move-applications.mjs
+
+# Local deployment links and tool caches
+**/.vercel/
+**/.cache/
+**/.turbo/
+**/.eslintcache
+
+# Generated framework declarations and browser test reports
+client/next-env.d.ts
+server/next-env.d.ts
+**/playwright-report/
+**/blob-report/
+**/playwright/.cache/
+client/evaluation-results/*.json
+
+# Shared-package build output
+shared/dist/
+
+# Local editor backups and private key containers (public certificates stay trackable)
+**/*~
+**/*.swp
+**/*.swo
+**/*.key
+**/*.p12
+**/*.pfx
