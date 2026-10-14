@@ -18,7 +18,8 @@ test("public landing explains the workflow and navigates to real signup", async 
     .getByRole("link", { name: "Get started", exact: true })
     .first()
     .click();
-  await expect(page).toHaveURL(/\/signup/);
+  // A cold development compilation can exceed Playwright's five-second default.
+  await expect(page).toHaveURL(/\/signup/, { timeout: 30000 });
   await expect(page.getByLabel("Full name")).toBeVisible();
   await expect(page.getByLabel("Confirm password")).toBeVisible();
   expect(

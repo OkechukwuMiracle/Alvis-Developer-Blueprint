@@ -58,7 +58,8 @@ test("mutation APIs reject foreign origins and anonymous role spoofing", async (
       data: { role: "reviewer", organization_id: id, decision: "approve" },
     });
     expect(foreign.status()).toBe(403);
-    expect((await foreign.json()).code).toBe("FORBIDDEN");
+    // CORS middleware deliberately rejects foreign origins with an empty body.
+    expect(foreign.headers()["access-control-allow-origin"]).toBeUndefined();
     const anonymous = await request.post(route, {
       headers: { Origin: process.env.ALVIS_TEST_BASE_URL || "http://127.0.0.1:3000" },
       data: { role: "reviewer", organization_id: id, decision: "approve" },

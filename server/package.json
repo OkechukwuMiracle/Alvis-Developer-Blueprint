@@ -16,6 +16,7 @@
     "test:backfill": "node scripts/test-community-backfill.mjs",
     "seed": "node scripts/job.mjs seed",
     "worker": "node scripts/job.mjs worker",
+    "media:check": "node scripts/job.mjs media-check",
     "worker:once": "node scripts/job.mjs worker --once",
     "worker:learning": "node scripts/job.mjs learning-worker",
     "worker:learning:once": "node scripts/job.mjs learning-worker --once",

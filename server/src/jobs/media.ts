@@ -44,9 +44,23 @@ export function command(
   });
 }
 export type Probe = {
-  format: { duration: string; start_time?: string; format_name: string };
+  format: { duration?: string; start_time?: string; format_name: string };
   streams: { codec_type: string; codec_name: string; start_time?: string }[];
 };
+export function packetDuration(csv: string, start = 0) {
+  let end = -Infinity;
+  for (const line of csv.split(/\r?\n/)) {
+    const [timestamp, length] = line.split(",");
+    if (!timestamp?.trim() || timestamp === "N/A") continue;
+    const time = Number(timestamp);
+    const duration = Number(length);
+    if (Number.isFinite(time))
+      end = Math.max(end, time + (Number.isFinite(duration) && duration > 0 ? duration : 0));
+  }
+  const result = end - start;
+  if (!Number.isFinite(result) || result <= 0) throw new PipelineError("INVALID_DURATION");
+  return result;
+}
 export function validateProbe(p: Probe, mime: string, audio = false) {
   const duration = Number(p.format?.duration);
   if (
@@ -108,6 +122,18 @@ export async function prepareMedia(
       input,
     ]),
   ) as Probe;
+  // MediaRecorder's non-seekable WebM output often omits the duration header.
+  // Measure real packet timestamps instead; decoded video/audio checks below
+  // still enforce the application limit independently of container metadata.
+  if ((probe.format.duration === undefined || probe.format.duration === "N/A") &&
+      probe.format.format_name.split(",").includes("webm")) {
+    const packets = await command(process.env.FFPROBE_PATH || "ffprobe", [
+      "-v", "error", "-protocol_whitelist", "file,pipe",
+      "-read_intervals", `%+${audio ? 61 : 181}`,
+      "-show_entries", "packet=pts_time,duration_time", "-of", "csv=p=0", input,
+    ]);
+    probe.format.duration = String(packetDuration(packets, Number(probe.format.start_time || 0)));
+  }
   const duration = validateProbe(probe, mime, audio);
   if (!audio) {
     const progress = await command(process.env.FFMPEG_PATH || "ffmpeg", [

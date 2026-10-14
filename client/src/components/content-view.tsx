@@ -25,7 +25,7 @@ function ClaimView({ label, claim, sourceBase }: { label: string; claim: Claim; 
 }
 export function ContentView({ content: c, sourceBase = "/sources/" }: { content: Content; sourceBase?: string }) {
   return (
-    <div className="stack">
+    <div className="stack content-view">
       {(c.missing_information.length > 0 || c.contradictions.length > 0) && (
         <div className="notice">
           <strong>Review blockers</strong>

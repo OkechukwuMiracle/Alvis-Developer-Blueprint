@@ -20,6 +20,30 @@ From the root: `npm run dev:server`, `npm run worker`, `npm run worker:learning`
 
 The [root README](../README.md) defines authentication transport, CORS, installation, testing and deployment. Earlier milestone setup notes are preserved in [history](docs/milestone-setup-history.md); their old single-application paths are historical, not current commands.
 
+## Windows media-worker setup
+
+`npm ffmpeg -version` and `npm ffprobe -version` report npm's version; they do not
+verify media executables. Download and extract a Windows FFmpeg build linked from
+[FFmpeg's download page](https://ffmpeg.org/download.html). Set both absolute
+executable paths in the ignored `server/.env.local`, using your actual extracted
+directory (not the archive or its enclosing directory):
+
+```dotenv
+FFMPEG_PATH="C:/path/to/ffmpeg/bin/ffmpeg.exe"
+FFPROBE_PATH="C:/path/to/ffmpeg/bin/ffprobe.exe"
+```
+
+From the repository root, run `npm run media:check --workspace @alvis/server`.
+This probes the real binaries, generates two seconds of synthetic video/audio,
+and runs the worker's media validation and WAV preparation. It cleans its
+temporary files. It does not test storage, transcription, extraction or an
+expert-confirmed recording. Then run `npm run worker`. Explicit paths require no
+PATH change; after changing PATH instead, restart your terminal and IDE.
+
+`release:preflight` intentionally returns a nonzero exit code while any item is
+blocked, even if the worker itself is ready. Its email and live-recording entries
+are setup checks, not a stored record of completed inbox or workflow tests.
+
 Personal/community access is additive. Apply migrations 013–017 after the existing
 001–012; existing data remains organization-private. See [architecture and rollback](docs/community-architecture.md),
 [permissions](docs/community-permissions.md), and [onboarding](docs/community-onboarding.md).
